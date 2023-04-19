@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+/* System Fonts with system-ui */
+html {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 62.5%;
+}
+body {
+    /* font-size: 1.6rem; */
+    font-family: "Poppins", sans-serif;
+}
+/* common */
+.content {
+    width: 1170px;
+    max-width: calc(100vw - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    min-width: 144px;
+    padding: 11px 12px;
+    background: #171100;
+    border-radius: 24.5px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+    text-align: center;
+}
+/* header  */
+.header {
+    padding-top: 36px;
+}
+
+.header .logo {
+    margin-right: 512px;
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #171100;
+}
+
+.header .nav li + li {
+    margin-left: 42px;
+}
+.header .nav-item a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.header .home-item a {
+    position: relative;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #171100;
+}
+.header .home-item a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 12px;
+    height: 2px;
+    background: #171100;
+    border-radius: 1px;
+}
+.header .btn {
+    margin-left: 111px;
+}
