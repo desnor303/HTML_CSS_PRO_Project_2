@@ -37,9 +37,21 @@ a {
     color: #ffffff;
     text-align: center;
 }
-/* header  */
+
+.orion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+/* ======================= Header ======================= */
 .header {
     padding-top: 36px;
+    background: #fffcf4;
 }
 
 .header .logo {
@@ -85,4 +97,160 @@ a {
 }
 .header .btn {
     margin-left: 111px;
+}
+
+/* ======================= Hero ======================= */
+
+.hero {
+    background: #fffcf4;
+    padding-top: 64px;
+    padding-bottom: 65px;
+}
+
+.hero .content {
+    width: 1170px;
+    max-width: calc(100vw - 48px);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* thumb */
+.thumb {
+    position: relative;
+    width: 59.8%;
+    height: 685px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.thumb .main-image {
+    width: 470px;
+    height: 685px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.thumb .card {
+    background-color: #ffffff;
+    padding: 24px 58px 24px 24px;
+    position: absolute;
+    bottom: 48px;
+    left: 300px;
+}
+.card .desc {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+
+.card .sub-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+.card-item + .card-item {
+    margin-top: 14px;
+}
+.card-item-content {
+    margin-left: 16px;
+}
+
+.card .card-item:nth-child(1) .orion {
+    background: #fff9e8;
+}
+.card .card-item:nth-child(2) .orion {
+    background: #fcefff;
+}
+.card .card-item:nth-child(3) .orion {
+    background: #ebeaff;
+}
+/* para */
+
+.hero-section_2 {
+    width: 40.2%;
+}
+.para-content {
+    padding-top: 64px;
+    padding-bottom: 63px;
+}
+h1 {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.8rem;
+    line-height: 1.17;
+    letter-spacing: -0.12rem;
+    color: #171100;
+}
+
+.para-content .h1-desc {
+    margin-top: 22px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5f5b53;
+}
+.para-content .h1-desc-2 {
+    margin-top: 48px;
+}
+.hero .para-content > .row {
+    margin-top: 38px;
+}
+
+.hero .para-content .btn {
+    background: #ffb900;
+    border-radius: 32px;
+    margin-right: 28px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #ffffff;
+    padding: 17px 34px;
+}
+
+.hero .playV .orion {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
+    margin-right: 14px;
+    width: 40px;
+    height: 40px;
+}
+
+.hero .playV span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.hero-number p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5f5b53;
+}
+.hero-number p + p {
+    margin-left: 28px;
+}
+.hero-number span {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 1.23;
+    color: #171100;
+    padding-right: 8px;
 }
