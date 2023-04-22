@@ -720,3 +720,114 @@ h1 {
     margin-right: 6px;
     background: #ffb900;
 }
+.blogs .nav-dotes .dote:hover {
+    background: #5f5b53;
+}
+/* ==================== footer ========================= */
+.footer {
+    background: #2e2100;
+    padding: 96px 0px 28px;
+}
+.footer .row {
+    align-items: flex-start;
+    gap: 145px;
+}
+
+.footer .title-1 {
+    margin-bottom: 18px;
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #ffffff;
+}
+
+.footer .title-2 {
+    margin-bottom: 14px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+}
+
+.footer .desc {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+.footer .social .desc {
+    width: 267px;
+}
+
+.footer .social span {
+    color: #ffb900;
+}
+.footer .icon-block {
+    margin-top: 18px;
+    display: flex;
+    gap: 18px;
+}
+
+.footer .line {
+    height: 1px;
+    background: #59554b;
+}
+
+.footer .contact a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+
+.footer .contact-col:nth-child(1) {
+    min-width: 130px;
+}
+.footer .contact-col:nth-child(2) {
+    min-width: 137px;
+}
+
+.footer .contact-col:nth-child(3) {
+    min-width: 231px;
+}
+.footer .contact-col p:first-of-type {
+    margin-top: 28px;
+}
+
+.footer .contact-col p + p {
+    margin-top: 12px;
+}
+
+.footer .contact-col span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #ffffff;
+}
+
+.footer .line-header {
+    height: 1px;
+    background: #59554b;
+    margin-top: 38px;
+}
+
+.footer .desc-end {
+    margin-top: 28px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: center;
+    color: #807d74;
+}
