@@ -50,6 +50,9 @@ a {
     border-radius: 50%;
 }
 
+img {
+    display: block;
+}
 .orion:hover {
     background: #000 !important;
 }
@@ -388,4 +391,74 @@ h1 {
     font-weight: 600;
     font-size: 1.4rem;
     color: #ffffff;
+}
+
+/* ======================= Popular- thực chất là phần feedback ======================= */
+.popular {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: #2e2100;
+}
+.popular .row {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.popular .orion {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.popular .orion img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.popular .info span {
+    display: block;
+    margin-top: 18px;
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #f7f7f7;
+}
+
+.popular .info .desc {
+    margin-top: 4px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb3;
+}
+
+.popular .block-comment p {
+    padding-left: 30px;
+    width: 770px;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
+}
+
+.popular .nav-dotes {
+    width: 30px;
+    margin-top: 28px;
+    justify-content: space-between;
+}
+
+.popular .nav-dotes .dote {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #ffb900;
+}
+
+.popular .nav-dotes > a:hover {
+    background: #634700;
 }
